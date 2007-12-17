@@ -31,7 +31,6 @@ Source:		%{src}
 URL:		http://www.freedict.de
 Provides:	dictd-dicts-freedict-%{namesuffix}, dictd-dicts-%{namesuffix}
 Obsoletes:	dictd-dicts-freedict-%{namesuffix}
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 BuildRequires:	%{dictd_name}-utils >= %{dictd_version}
 Provides:	dictd-dictionary = %version-%release, dictd-dictionaries = %version-%release
