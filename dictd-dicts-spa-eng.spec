@@ -14,7 +14,7 @@
 %define descr		%{descr_prefix} %{summ_desc_suf}
 %define name		dictd-dicts-%{namesuffix}
 %define version         0.1.0
-%define release         %mkrel 11
+%define release         %mkrel 13
 %define group           Databases
 
 %define __dictzip       %(which dictzip)
