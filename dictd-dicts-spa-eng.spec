@@ -28,7 +28,7 @@ Release:	%{release}
 License:	%{license}
 Group:		%{group}
 Source:		%{src}
-URL:		http://www.freedict.de
+URL:		https://www.freedict.de
 Provides:	dictd-dicts-freedict-%{namesuffix}, dictd-dicts-%{namesuffix}
 Obsoletes:	dictd-dicts-freedict-%{namesuffix}
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
